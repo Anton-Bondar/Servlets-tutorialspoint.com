@@ -1,0 +1,49 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+
+  <servlet>
+    <servlet-name>HelloWorldServlet</servlet-name>
+    <servlet-class>com.tutorialspoint.hello_world_01.HelloWorldServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>HelloWorldServlet</servlet-name>
+    <url-pattern>/helloWorldPage</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>HelloFormServlet</servlet-name>
+    <servlet-class>com.tutorialspoint.form_example_02.HelloFormServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>HelloFormServlet</servlet-name>
+    <url-pattern>/hello_form</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>CheckBoxFormServlet</servlet-name>
+    <servlet-class>com.tutorialspoint.form_example_02.CheckBoxFormServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>CheckBoxFormServlet</servlet-name>
+    <url-pattern>/checkbox_form</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>ReadAllParamsServlet</servlet-name>
+    <servlet-class>com.tutorialspoint.form_example_02.ReadAllParamsServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>ReadAllParamsServlet</servlet-name>
+    <url-pattern>/read_params</url-pattern>
+  </servlet-mapping>
+
+</web-app>
+
