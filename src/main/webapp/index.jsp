@@ -12,6 +12,11 @@
         <li><a href="/read_params?one=&two=">Reading all parameters manual parameters</a></li>
     </ul>
     <li><a href="/display_header">Display headers page</a></li>
+    <li>
+        <a href="/refresh_page">Refresh page</a></li>
+    </li>
+    <li>
+        <a href="/error_response_page">Show error response (407)</a></li>
     </li>
 </ol>
 </body>

@@ -66,6 +66,39 @@ public class DisplayHeaderServlet extends HttpServlet {
                             "<th>Method name</th><th>result</th>\n" +
                             "</tr>\n");
 
+        out.print("<tr><td>" + "getMethod()" + "</td>\n");
+        out.println("<td> " + request.getMethod() + "</td></tr>\n");
+
+        out.print("<tr><td>" + "getServletPath()" + "</td>\n");
+        out.println("<td> " + request.getServletPath() + "</td></tr>\n");
+
+        out.print("<tr><td>" + "getSession()" + "</td>\n");
+        out.println("<td> " + request.getSession() + "</td></tr>\n");
+
+        out.print("<tr><td>" + "getRequestURI()" + "</td>\n");
+        out.println("<td> " + request.getRequestURI() + "</td></tr>\n");
+
+        out.print("<tr><td>" + "getProtocol()" + "</td>\n");
+        out.println("<td> " + request.getProtocol() + "</td></tr>\n");
+
+        out.print("<tr><td>" + "isSecure()" + "</td>\n");
+        out.println("<td> " + request.isSecure() + "</td></tr>\n");
+
+        out.print("<tr><td>" + "getRemoteHost()" + "</td>\n");
+        out.println("<td> " + request.getRemoteHost() + "</td></tr>\n");
+
+        out.print("<tr><td>" + "getRemoteAddr()" + "</td>\n");
+        out.println("<td> " + request.getRemoteAddr() + "</td></tr>\n");
+
+        out.print("<tr><td>" + "getLocale()" + "</td>\n");
+        out.println("<td> " + request.getLocale() + "</td></tr>\n");
+
+        out.print("<tr><td>" + "getAuthType()" + "</td>\n");
+        out.println("<td> " + request.getAuthType() + "</td></tr>\n");
+
+        out.print("<tr><td>" + "getCharacterEncoding()" + "</td>\n");
+        out.println("<td> " + request.getCharacterEncoding() + "</td></tr>\n");
+
         out.println("</table>\n");
         out.println("</body></html>");
     }
