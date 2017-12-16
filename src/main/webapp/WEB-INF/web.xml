@@ -45,5 +45,19 @@
     <url-pattern>/read_params</url-pattern>
   </servlet-mapping>
 
+  <filter>
+    <filter-name>LogFilter</filter-name>
+    <filter-class>com.tutorialspoint.log_filter_06.LogFilter</filter-class>
+    <init-param>
+      <param-name>test-param</param-name>
+      <param-value>Initialization Paramter</param-value>
+    </init-param>
+  </filter>
+
+  <filter-mapping>
+    <filter-name>LogFilter</filter-name>
+    <url-pattern>/*</url-pattern>
+  </filter-mapping>
+
 </web-app>
 
