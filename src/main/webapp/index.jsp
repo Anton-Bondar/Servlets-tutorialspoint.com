@@ -18,6 +18,9 @@
     <li>
         <a href="/error_response_page">Show error response (407)</a></li>
     </li>
+    <li>
+        <a href="/hello_page+cookie.html">Hello page + cookie</a></li>
+    </li>
 </ol>
 </body>
 </html>
