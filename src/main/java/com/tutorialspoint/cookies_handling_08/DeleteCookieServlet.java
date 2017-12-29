@@ -1,7 +1,5 @@
 package com.tutorialspoint.cookies_handling_08;
 
-import com.sun.deploy.util.StringUtils;
-
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.Cookie;

@@ -21,6 +21,9 @@
     <li>
         <a href="/hello_page+cookie.html">Hello page + cookie</a></li>
     </li>
+    <li>
+        <a href="/session_track">Session tracker</a></li>
+    </li>
 </ol>
 </body>
 </html>
