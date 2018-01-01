@@ -30,9 +30,10 @@ public class SessionTrackServlet extends HttpServlet {
         Date lastAccessTime = new Date(session.getLastAccessedTime());
 
         String title = "Welcome Back to my website";
-<<<<<<< HEAD
+
         String visitCountKey = new String("visitCount");
         Integer visitCount = session.getAttribute(visitCountKey) == null ?
+                Integer.valueOf(0) : (Integer) session.getAttribute(visitCountKey);
 
         String userIDKey = new String("userID");
         String userID = new String("ABCD");

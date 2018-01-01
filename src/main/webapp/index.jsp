@@ -24,6 +24,9 @@
     <li>
         <a href="/session_track">Session tracker</a></li>
     </li>
+    <li>
+        <a href="/upload_file_form.html">Upload file form</a></li>
+    </li>
 </ol>
 </body>
 </html>
