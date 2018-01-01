@@ -21,8 +21,8 @@ public class SessionTrackServlet extends HttpServlet {
             throws ServletException, IOException {
 
         // Create a session object if it is already not  created.
-        HttpSession session = request.getSession();
 
+        HttpSession session = request.getSession();
         // Get session creation time.
         Date createTime = new Date(session.getCreationTime());
 
@@ -30,10 +30,10 @@ public class SessionTrackServlet extends HttpServlet {
         Date lastAccessTime = new Date(session.getLastAccessedTime());
 
         String title = "Welcome Back to my website";
+<<<<<<< HEAD
         String visitCountKey = new String("visitCount");
         Integer visitCount = session.getAttribute(visitCountKey) == null ?
-                                        new Integer(0) :
-                                        (Integer) session.getAttribute(visitCountKey);
+
         String userIDKey = new String("userID");
         String userID = new String("ABCD");
 
