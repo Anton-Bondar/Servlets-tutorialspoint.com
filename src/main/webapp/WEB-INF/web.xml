@@ -108,9 +108,8 @@
   <context-param>
     <description>Location to store uploaded file</description>
     <param-name>file-upload</param-name>
-    <param-value>
-      usr\local\temp\
-    </param-value>
+    <!--todo works only for Windows OS do for Mac OS -->
+    <param-value>C:\Users\anbo061311\temp\</param-value>
   </context-param>
 
 </web-app>
